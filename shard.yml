@@ -1,0 +1,14 @@
+name: redis-queue
+version: 0.1.0
+
+authors:
+  - Paulo Arruda <parrudaj@gmail.com>
+
+crystal: 0.27.0
+
+license: MIT
+
+dependencies:
+  redis:
+    github: stefanwille/crystal-redis
+    version: ~> 2.1.1
