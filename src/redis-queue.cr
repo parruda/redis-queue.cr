@@ -1,7 +1,10 @@
 module RedisQueue
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
   @last_message : String?
   @redis : ::Redis::PooledClient
+  
+  property "queue_name"
+  property "process_queue_name"
   
   def initialize(queue_name : String, process_queue_name : String, @redis : Redis::PooledClient, @timeout = 0)
     raise "First argument must be a non empty string"  if !queue_name.is_a?(String) || queue_name.empty?
