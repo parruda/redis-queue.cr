@@ -73,4 +73,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Paulo Arruda](https://github.com/your-github-user) - creator and maintainer
+- [Paulo Arruda](https://github.com/parruda) - creator and maintainer
